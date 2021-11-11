@@ -11,16 +11,18 @@ https://www.kaggle.com/teajay/global-shark-attacks
 Are there certain scenarios/situations that contribute more towards shark attacks?
 (What activity is more likely to contribute to a shark attack?)
 (What time/date is likely to contribute to a shark attack?)
-Fatal or not fatal?
+### Fatal or not fatal?
 
 ## Database: 
 Postgres(SQL)
 
 ## Machine Learning Models:
-Multiple Linear Regression
+Logistic Regression
+Neural Networks 
+K Nearest Neighbors 
 
 ## Live Predictions
-Maybe?
+No.
 
 ## Columns
 - Case Number
