@@ -23,25 +23,25 @@ Multiple Linear Regression
 Maybe?
 
 ## Columns
-Case Number
-Date
-Year
-Type
-Country
-Area
-Location
-Activity
-Name
-Sex 
-Age
-Injury
-Fatal (Y/N)
-Time
-Species 
-Investigator or Source
-pdf
-href formula (dropping)
-href (dropping)
-Case Number (dropping)
-Case Number (dropping)
-original order (dropping)
+- Case Number
+- Date
+- Year
+- Type
+- Country
+- Area
+- Location
+- Activity
+- Name
+- Sex 
+- Age
+- Injury
+- Fatal (Y/N)
+- Time
+- Species 
+- Investigator or Source
+- pdf
+- href formula (dropping)
+- href (dropping)
+- Case Number (dropping)
+- Case Number (dropping)
+- original order (dropping)
