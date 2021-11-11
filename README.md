@@ -18,7 +18,9 @@ Postgres(SQL)
 
 ## Machine Learning Models:
 Logistic Regression
+
 Neural Networks 
+
 K Nearest Neighbors 
 
 ## Live Predictions
