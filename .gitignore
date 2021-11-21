@@ -1,6 +1,6 @@
 .DS_Store
-<<<<<<< Updated upstream
-=======
 .ipynb_checkpoints/
+__pycache__/
+
+#Adding config.py file.
 config.py
->>>>>>> Stashed changes
