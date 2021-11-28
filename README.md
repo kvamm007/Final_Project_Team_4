@@ -76,6 +76,8 @@ Neural networks are a class of machine learning algorithms used to model complex
    * Attacks by Year
    * Spike year and activity
 
+https://public.tableau.com/app/profile/stephanie.anderson5212/viz/SharkAttackDashboard_16380406336240/Spikeyearandactivity
+
 - Description of project - main page
 
 Predicting Fatal and Non Fatal shark attacks and the other factors leading to those attacks using Machine Learning and Tableau Visualizations.
