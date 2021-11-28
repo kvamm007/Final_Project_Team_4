@@ -52,3 +52,17 @@ Tableau - Presentation Front End
 - Case Number (dropping)
 - Case Number (dropping)
 - original order (dropping)
+
+## Plan for Dashboard
+
+- Use HTML via Bootstrap
+
+- Logisitic Regression used for first ML model with visial and explanation - drop down pages
+
+*Neural Networks and K Nearest Neighbors to come
+
+- Tablaeu for visuals - main page
+
+- Description of project - main page
+
+- Information on dataseat and how it was cleaned - main page
