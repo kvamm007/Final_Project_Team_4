@@ -66,3 +66,5 @@ Tableau - Presentation Front End
 - Description of project - main page
 
 - Information on dataseat and how it was cleaned - main page
+
+- link to Github and dataset - bottom of main page
