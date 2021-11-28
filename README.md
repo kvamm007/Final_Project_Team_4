@@ -78,6 +78,12 @@ Neural networks are a class of machine learning algorithms used to model complex
 
 - Description of project - main page
 
+Predicting Fatal and Non Fatal shark attacks and the other factors leading to those attacks using Machine Learning and Tableau Visualizations.
+
+This Project utilizes HTML, Bootstrap, Tableau, Python (Jupyter Notebook using pandas) Logistic Regression, KNN, and Neural Networks. 
+
 - Information on dataseat and how it was cleaned - main page
 
 - link to Github and dataset - bottom of main page
+
+The group consists of Amy Bauer, Stephanie Anderson and Nicole Freeman
