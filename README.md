@@ -57,7 +57,7 @@ Tableau - Presentation Front End
 
 - Use HTML via Bootstrap
 
-- Logisitic Regression used for first ML model with visial and explanation - drop down pages
+- Logisitic Regression used for first ML model with visual and explanation - drop down pages
 
 *Neural Networks and K Nearest Neighbors to come
 
