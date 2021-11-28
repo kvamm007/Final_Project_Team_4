@@ -68,11 +68,11 @@ This machine learning model is used to find the probability of a certain class o
 
  ### Visuals: 
  
-  * Map 
-  * Acitivty-Fatality Heat map 
-  * Month-Hour Heat Map
-  * Attacks by Year
-  * Spike year and activity
+   * Map 
+   * Acitivty-Fatality Heat map 
+   * Month-Hour Heat Map
+   * Attacks by Year
+   * Spike year and activity
 
 - Description of project - main page
 
