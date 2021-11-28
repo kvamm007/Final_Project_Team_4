@@ -65,11 +65,11 @@ Tableau - Presentation Front End
 This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
 
 - Tablaeu for visuals - main page
-* Map 
-* Acitivty-Fatality Heat map 
-* Month-Hour Heat Map
-* Attacks by Year
-* Spike year and activity
+  * Map 
+  * Acitivty-Fatality Heat map 
+  * Month-Hour Heat Map
+  * Attacks by Year
+  * Spike year and activity
 
 - Description of project - main page
 
