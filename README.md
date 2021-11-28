@@ -64,8 +64,9 @@ Tableau - Presentation Front End
 #### Logistic Regression: 
 This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
 
-#### Neaurl Networks:
+#### Neural Networks:
 
+Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. 
 
 - Tablaeu for visuals - main page
  
