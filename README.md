@@ -61,8 +61,11 @@ Tableau - Presentation Front End
 
 *Neural Networks and K Nearest Neighbors to come
 
-##### Logistic Regression: 
+#### Logistic Regression: 
 This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
+
+#### Neaurl Networks:
+
 
 - Tablaeu for visuals - main page
  
