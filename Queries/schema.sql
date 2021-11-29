@@ -5,16 +5,15 @@ CREATE TABLE shark_attacks (
 	incident_year INT NOT NULL,
 	incident_type VARCHAR,
 	country VARCHAR NOT NULL,
-	ISO VARCHAR NOT NULL,
 	area VARCHAR,
 	incident_location VARCHAR,
 	activity VARCHAR,
 	gender VARCHAR,
 	age INT,
-	fatal VARCHAR NOT NULL,
+	fatal VARCHAR,
 	incident_time TIME,
-    species VARCHAR,
 	reference VARCHAR,
+	ISO varchar,
 	PRIMARY KEY (incident_no),
 	FOREIGN KEY (incident_year) REFERENCES world_population (year)
 );
