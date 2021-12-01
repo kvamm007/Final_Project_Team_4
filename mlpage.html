@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+        <!-- Custom styles for this template -->
+        <link href="HTML Resources/css/style.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.1/examples/headers/headers.css" rel="stylesheet">
+
+        <title>World Shark Attack Dashboard</title>
+
+        
+
+    </head>
+
+
+    <body>
+
+
+        <!-- Header Menu -->
+        <header>
+            <div class="container">
+                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4">Machine Learning</span>
+                  </a>
+            
+
+                  <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home Dashboard</a></li>
+                    <li class="nav-item"><a href="mlpage.html" class="nav-link active" aria-current="page">Machine Learning</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                  </ul>
+
+                </header>
+              </div>
+        </header>
+        <!-- End Header Menu-->
+
+        <!-- Logistic Regression -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 jumbotron text-center">
+                    <h1>Logistic Regression</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <img class="col-md-4", src="https://courses.bootcampspot.com/courses/722/files/761884/preview">
+                            <p class="col-md-8">
+                                The logistic regression machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset.
+                                The input data included the year of the attack; type of attack; country, area and location of the attack; activity that was occuring when the attack happened; and gender and age of the victim. 
+                                The data about the fatality of the attack was separated out so that a model could be created to predict if the attack would be fatal or not and then could be compared with the actual fatality data as shown in the image to the right.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <img class="col-md-8", src="Images/Logistic_Regression_Predictions_Report.png">
+                            <p class="col-md-4">
+                                As shown in the image to the left, the model was very successful at predicting a Fatal or Non Fatal attack as the model had an accuracy score of 1.0.
+                                We selected the logistic regression model because of its ability to predict one of two outcomes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="col-md-12", src="Images/Logistic_Regression_Predictions.png">
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!-- End Logistic Regression -->
+
+        <!-- Neural Networks -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 jumbotron text-center">
+                    <h1>Neural Networks</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <img class="col-md-5", src="https://courses.bootcampspot.com/courses/722/files/650160/preview">
+                    <p class="col-md-2">
+                        Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions.
+                        In our model, we used three layers to train the data.
+                    </p>
+                    <img class="col-md-5", src="Images/Neural_Networks_Layers.png">
+                </div>
+                <div class="row">
+                    <p class="col-md-12">
+                    As shown in the image below, this neural network model had a loss of 0.29 and an accuracy of 0.87. We selected the neural networks model because of the ability to analyze large datasets and to make a single prediction.
+                    In our model, the input data included the year of the attack; type of attack; country, area and location of the attack; activity that was occuring when the attack happened; and gender and age of the victim while also trying to predict if a shark attack would be Fatal or Non Fatal.
+                    </p>
+                </div>
+                <div class="row">
+                    <img class="col-md-12", src="Images/Neural_Networks_Model_Accuracy.png">
+                </div>
+            </div>
+        </div>
+        <!-- End Neural Networks -->
+
+        <!-- Javascript for Bootstrap, DON'T REMOVE keep at bottom of body-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+
+</html>
