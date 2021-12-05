@@ -13,8 +13,7 @@
         <link href="https://getbootstrap.com/docs/5.1/examples/headers/headers.css" rel="stylesheet">
 
         <title>World Shark Attack Dashboard</title>
-
-        
+        <link rel="stylesheet" href="static/css/style.css">        
 
     </head>
 
@@ -23,21 +22,51 @@
 
         <!-- Header Menu -->
         <header>
-            <div class="container">
-                <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                    <span class="fs-4">World Shark Attack Dashboard (1950-November, 2021)</span>
-                  </a>
-            
-                  <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home Dashboard</a></li>
-                    <li class="nav-item"><a href="mlpage.html" class="nav-link">Machine Learning</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                  </ul>
-                </header>
+          <div class="jumbotron">
+            <div class ="container">
+              <div class="container">
+                  <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                      <span class="fs-4"></span>
+                    </a>
+              
+                    <ul class="nav nav-pills">
+                      <li class="nav-item"><a href="index.html" style="color: white" class="nav-link active" aria-current="page">Home Dashboard</a></li>
+                      <li class="nav-item"><a href="mlpage.html" style="color: white" class="nav-link">Machine Learning</a></li>
+                      <li class="nav-item"><a href="about.html" style="color: white" class="nav-link">About</a></li>
+                    </ul>
+                  </header>
               </div>
-        </header>
+              <h1 class="display-4">World Shark Attacks</h1>
+              <h3 class="display-6">1950 to Present</h3>
+           </div>  
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    <h3><br><center>Project Overview </center><br></h3>
+                    <p>The purpose of this project was to look at records of world shark attacks and the various factors that play into that
+                       including location, time of day, activity being done at the time of attack, gender, etc.  From that information we 
+                       then built a machine-learning model that could be used to predict the liklihood of a shark attack being fatal. 
+                        <br>
+                        <br>
+                       The dataset we used was from the Global Shark Attack File maintained by the Shark Research Institute.  We narrowed our
+                       dataset down to the years between 1950 and current.  We did this in order to have situations that were more
+                       relatable to our current time by eliminating major war years that included a large number of sea disasters.
+                        <br>
+                        <br>
+                       We used Tableau for our visualizations.  We used Logistic Regression and Neural Network models in order to build models
+                       that could be used to predict fatal versus non-fatal shark attacks given certain factors.
+
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div> 
+      </header>
         <!--End header menu-->
 
         <!-- Map Div-->
