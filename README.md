@@ -1,6 +1,6 @@
 # Final_Project_Team_4
 
-## LINK TO DASHBORAD
+## LINK TO DASHBOARD
 https://kvamm007.github.io/Final_Project_Team_4/index.html 
 
 ## Topic 
