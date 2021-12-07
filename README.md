@@ -1,94 +1,41 @@
-# Final_Project_Team_4
+# World Shark Attacks
 
-## LINK TO DASHBOARD
+### Link to the website:
 https://kvamm007.github.io/Final_Project_Team_4/index.html 
 
-## Topic 
-Shark Attacks 
+## Overview
+For this project we looked at world shark attacks, and used that information to create visualizations to view factors that may contribute to the liklihood of being attacked by a shark.  We were also interested in whether there are factors that contribute to the liklihood of the attack being fatal.
 
-## Description of of our source data 
-Kaggle Dataset
-https://www.kaggle.com/teajay/global-shark-attacks
+The dataset we used was the Global Shark Attack file that is maintained by the Shark Research Institute.  There are subsets of this dataset also published in Kaggle, but in order to get the most up-to-date logged incidents, we chose to use this one.
+https://www.sharkattackfile.net/incidentlog.htm
 
-## Questions that we hope to answer
-Are there certain scenarios/situations that contribute more towards shark attacks?
-(What activity is more likely to contribute to a shark attack?)
-(What time/date is likely to contribute to a shark attack?)
-### Fatal or not fatal?
-
-## Database: 
-Postgres(SQL)
-
-## Machine Learning Models:
-Logistic Regression
-
-Neural Networks 
-
-K Nearest Neighbors 
+This project utilizes the following:
+- HTML/Bootstrap
+- Tableau
+- Python (Jupyter Notebook using pandas)
+- Machine Learning: Logistic Regression, KNN, and Neural Networks
 
 
-## Live Predictions
-No.
+## Analysis
+### Visualizations
+Our Visualizations were created using Tableau, and consist of the following:
+- The World Shark Attack Map shows where shark attacks have occurred, and whether they are fatal, not fatal, or unknown.  You can click on an individual marker and get more information on that attack, as well as bring up a link to the documented report.
+- A heatmap showing shark attacks as fatal, not fatal, or unknown by type of activity
+- A heatmap showing shark attacks by month and time of day
+- A graph showing shark attacks by year in relation to world population
+- A bar graph looking closer at the year 1960 and what might be possibly contributing to a spike in attacks.
 
-Tableau - Presentation Front End
 
-## Columns
-- Case Number
-- Date
-- Year
-- Type
-- Country
-- Area
-- Location
-- Activity
-- Name
-- Sex 
-- Age
-- Injury
-- Fatal (Y/N)
-- Time
-- Species 
-- Investigator or Source
-- pdf
-- href formula (dropping)
-- href (dropping)
-- Case Number (dropping)
-- Case Number (dropping)
-- original order (dropping)
+### Machine Learning Models
 
-## Plan for Dashboard
+- Logistic Regression: 
 
-- Use HTML via Bootstrap
+   This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
 
-- Logisitic Regression used for first ML model with visual and explanation - drop down pages
+- Neural Networks:
 
-*Neural Networks and K Nearest Neighbors to come
+   Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. 
 
-#### Logistic Regression: 
-This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
 
-#### Neural Networks:
+## Summary
 
-Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. 
-
-- Tablaeu for visuals - main page
- 
-   * Map 
-   * Acitivty-Fatality Heat map 
-   * Month-Hour Heat Map
-   * Attacks by Year
-   * Spike year and activity
-
-https://public.tableau.com/app/profile/stephanie.anderson5212/viz/SharkAttackDashboard_16380406336240/Spikeyearandactivity
-
-- Description of project - main page
-
-Predicting Fatal and Non Fatal shark attacks and the other factors leading to those attacks using Machine Learning and Tableau Visualizations.
-
-This Project utilizes HTML, Bootstrap, Tableau, Python (Jupyter Notebook using pandas) Logistic Regression, KNN, and Neural Networks. 
-
-- Information on dataseat and how it was cleaned - main page
-
-- link to Github and dataset - bottom of main page
-
-The group consists of Amy Bauer, Stephanie Anderson and Nicole Freeman
