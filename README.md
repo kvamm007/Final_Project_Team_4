@@ -13,7 +13,7 @@ This project utilizes the following:
 - HTML/Bootstrap
 - Tableau
 - Python (Jupyter Notebook using pandas)
-- Machine Learning: Logistic Regression, KNN, and Neural Networks
+- Machine Learning: Logistic Regression and Neural Networks
 
 
 ## Analysis
