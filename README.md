@@ -13,7 +13,7 @@ This project utilizes the following:
 - HTML/Bootstrap
 - Tableau
 - Python (Jupyter Notebook using pandas)
-- Machine Learning: Logistic Regression, KNN, and Neural Networks
+- Machine Learning: Logistic Regression and Neural Networks
 
 
 ## Analysis
@@ -30,12 +30,17 @@ Our Visualizations were created using Tableau, and consist of the following:
 
 - Logistic Regression: 
 
-   This machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. 
+The logistic regression machine learning model is used to find the probability of a certain class or event existing. In our particular model we were looking for a Fatal or Non Fatal event existing within our Shark Attcak dataset. The input data included the year of the attack; type of attack; country, area and location of the attack; activity that was occuring when the attack happened; and gender and age of the victim. The data about the fatality of the attack was separated out so that a model could be created to predict if the attack would be fatal or not and then could be compared with the actual fatality data as shown in the image to the right.
+
+The model was very successful at predicting a Fatal or Non Fatal attack as the model had an accuracy score of 1.0. We selected the logistic regression model because of its ability to predict one of two outcomes.
 
 - Neural Networks:
 
-   Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. 
+Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. In our model, we used three layers to train the data.
+
+This model had a loss of 0.29 and an accuracy of 0.87. We selected the neural networks model because of the ability to analyze large datasets and to make a single prediction. In our model, the input data included the year of the attack; type of attack; country, area and location of the attack; activity that was occuring when the attack happened; and gender and age of the victim while also trying to predict if a shark attack would be Fatal or Non Fatal.
 
 
 ## Summary
 
+https://kvamm007.github.io/Final_Project_Team_4/index.html 
